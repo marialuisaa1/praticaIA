@@ -1,0 +1,92 @@
+/* Resetando o estilo do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o fundo e centralizando o conteúdo */
+body {
+    background-color: #1b1c30;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Container centralizado com o conteúdo */
+.container {
+    text-align: center;
+}
+
+/* Estilo do título */
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Estilo das entradas de texto */
+.input-field {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+}
+
+.input-field::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Estilo da frase "Ainda não tem uma conta?" */
+.create-account {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.create-account .link {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+/* Estilo do botão */
+.login-button {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #77c97b;
+    color: #1b1c30;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    opacity: 0.9;
+}
+
+.links-container {
+    margin-top: 20px;
+}
+
+
+.link {
+    display: block;
+    color: aquamarine;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
